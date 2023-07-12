@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MXK Mexiko-Restaurante Bar</title>
+	<link rel="icon" href="img/icono.png">
+	 <!-- CSS Bootstrap -->
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	 <!-- CSS Propio -->
+	 <link rel="stylesheet" type="text/css" href="estilos.css">
+	 <!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- cabecera -->
+	<aside id="inicio"></aside>
+	<header id="header">
+
+		<div id="conav">
+			<div id="header-logo-mobile">
+				<img src="img/logoheader.png" alt="logo de Mexiko Restaurante Bar">
+			</div>
+<!-- bootstrap -->
+			<div id="navs1">
+				<nav class="navbar navbar-expand-sm" >
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<img src="img/menu.png" alt="menu hamburguesa" width="30px">
+						</button>
+						<div class="collapse navbar-collapse header-botonera" id="navbarNav">
+							<ul class="navbar-nav">
+								<li><a href="#inicio">INICIO</a></li>
+								<li><a href="#section2-menu">MENU</a></li>
+								<li id="header-logo"><img id="imgheaderjs" src="img/logoheader.png" alt="logo Mexiko Restaurante Bar."></li>
+								<li><a href="#section3">APP</a></li>
+								<li><a href="#footer">RESTAURANTES</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+<!-- fin boos -->
+	</header>
+
+
+<!-- section 1 -->
+	<section id="section1">
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+			<div class="carousel-inner"> 
+				<div id="cajatext">
+					<div id="section1-caja-con-texto" style="color: black;">
+						<p class="h1"><span class="greencolor">we </span>are <span class="redcolor">open!</span> </p>
+						<p class="h2">estamos abiertos en todos nuestros locales</p>
+					</div> 
+				</div>
+
+				<div class="carousel-item active fotoscarousel1 responsiv"></div>
+
+				<div class="carousel-item fotoscarousel2 responsiv"></div>
+				
+				<div class="carousel-item fotoscarousel3 responsiv"></div>
+				
+				<div class="carousel-item fotoscarousel4 responsiv"></div>
+
+			</div>
+
+			<button class="carousel-control-prev" id="botonizq" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" id="botonder" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+
+<!-- section 2 -->
+	<section id="section2-menu">
+		
+			<div id="section2-titulo-h4">
+				<h4>MENU</h4>
+			</div>
+
+			<div id="section2-contenedor-texto">
+				<p>Carta variada con las mejores recetas mexicanas, gran variedad de tacos caseros, pizzas a la piedra en horno de barro, carnes, pollos, pescados, menúes light de bajas calorías, menúes para niños y la mejor selección de postres mexicanos.
+				</p>
+			</div>
+			
+				<div id="section2-contenedor-imagenes">	
+					<div id="section2-contenedor-imagenes1">
+
+						<div class="section2-imagenes">
+							<img src="img/s1img1.jpg" alt="desayuno y merienda de Mexiko Restaurante Bar.">
+							<a href="#section2">desayuno y merienda</a>
+						</div>
+
+
+						<div class="section2-imagenes">
+							<img src="img/s1img2.jpg" alt="almuerzo y cena de Mexiko Restaurante Bar.">
+							<a href="#section2">almuerzo y cena</a>
+						</div>
+
+						<div class="section2-imagenes">
+							<img src="img/s1img3.jpg" alt="postre de Mexiko Restaurante Bar.">
+							<a href="#section2">postres</a>
+						</div>
+					</div>
+
+					<div id="section2-contenedor-imagenes2" style="display:none ;">
+
+						<div class="section2-imagenes">
+							<img src="img/s1img4.jpg" alt="tragos Mexiko de Restaurante Bar.">
+							<a href="#section2">tragos</a>
+						</div>
+
+						<div class="section2-imagenes">
+							<img src="img/s1img5.jpg" alt="vinos espumantes de Mexiko Restaurante Bar.">
+							<a href="#section2">vinos espumantes</a>
+						</div>
+
+						<div class="section2-imagenes">
+							<img src="img/s1img6.jpg" alt="bebidas y cervezas de Mexiko Restaurante Bar.">
+							<a href="#section2">bebidas y cervezas</a>
+						</div>
+					</div>
+				</div>	
+
+			<div class="section4-a">
+				<a href="#section2" onclick="menu()">Ver menu completo</a>
+			</div>
+	</section>
+
+<!-- section Boostrap -->
+	<section id="sectionbp">
+		<div class="container-fluid" id="contenedor1">
+
+			<div class="row pt-4 pb-3" id="row1">
+				<div class="col">
+					<h3>Cupones:</h3>
+				</div>
+			</div>
+
+			<div class="row mb-6" id="row2">
+				<div class="col-sm-12 col-md-6 col-lg-4 py-2" id="row2c1">
+					<a href="" data-bs-toggle="modal" data-bs-target="#modalCupones">
+						<img src="img/sbimg1.png" class="bsimg" alt="Cupones Mexiko Restaurante Bar.">
+					</a>
+				</div>
+        
+				<div class="col-sm-12 col-md-6 col-lg-4 pt-2" id="row2c2">
+					<a href="" data-bs-toggle="modal" data-bs-target="#modalCupones">
+						<img src="img/sbimg2.png" class="bsimg bsimg2" alt="Cupones Mexiko Restaurante Bar.">
+					</a>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-4 pt-2" id="row2c3">
+					<a href="" data-bs-toggle="modal" data-bs-target="#modalCupones">
+						<img src="img/sbimg3.png" class="bsimg" alt="Cupones Mexiko Restaurante Bar.">
+					</a>
+				</div>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="modalCupones" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h1 class="modal-title fs-1" id="exampleModalLabel">Descargá nuestra app.</h1>
+					</div>
+					<div class="modal-body">
+					  <p>
+						Para disfrutar de descuentos y cupones diarios.
+					  </p>
+					  <div class="sectionb-logos">
+						<img src="img/logoheader.png" alt="">
+						<img src="img/googleplay.png" alt=" logo playstore">
+						<img src="img/appstore.png" alt="logo appstore">
+						</div>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			<!-- Fin Modal -->
+
+			<div class="row mt-4 mb-4" id="row3">
+				<div class="col-sm-12 col-md-6 col-lg-6 py-1" id="row3c1">
+						<!-- card Bootstrap -->
+						<div class="card row3card1"  style="width: 24rem;" >
+							<img src="img/1.PNG" class="card-img-top" alt="Pedi y retira directamente de la app Mexiko Restaurante Bar.">
+							<div class="card-body">
+							  <h5 class="card-title">Pedí y retirá</h5>
+							  <p class="card-text">Adelantá tu pedido desde el celular con tu app y retiralo como quieras</p>
+							  <a href="#section3" class="btn btn-propio">Pedí y retirá</a>
+							</div>
+						</div>
+						<!-- termina card Bootstrap -->
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6 py-1" id="row3c2">
+					<!-- card Bootstrap -->
+					<div class="card row3card2"  style="width: 24rem;" >
+						<img src="img/2.PNG" class="card-img-top" alt="Volvio Mexiko Restaurante Bar abierta las 24 horas del dia.">
+						<div class="card-body">
+						  <h5 class="card-title">Open 24 Hs.</h5>
+						  <p class="card-text">Encontrá aquí el local mas cercano para visitarnos después de las 00 Hs.</p>
+						  <a href="#footer" class="btn btn-propio">Encontrá el mas cercano.</a>
+						</div>
+					</div>
+					<!-- termina card Bootstrap -->
+				</div>
+				<div></div>
+			</div>
+		</div>
+	</section>
+
+<!-- section 3 -->
+	<section id="section3">
+			<div id="section3-foto">
+				<img src="img/mexikoapp.jpg" alt="Mexiko Restaurante Bar aplicacion">
+			</div>
+			<div id="section3-texto">
+				<h2>Descargá la APP y disfrutá mucho más por mucho menos</h2>
+				<div class="section3-logos">
+				<img src="img/googleplay.png" alt=" logo playstore">
+				<img src="img/appstore.png" alt="logo appstore">
+				</div>
+			</div>
+
+	</section>
+
+
+<!-- section con Bootstrap -->
+
+<section>
+	<div class="container-fluid" id="sb2contenedor1">
+		<div class="row" id="sb2row1">
+			<div class="col-sm-12 pb-5">
+				<h4>CONTACT0</h4>
+				<h5>ENVÍENOS SU MENSAJE</h5>
+				<p>
+					Nos encantaría saber de usted
+				</p>
+			</div>
+			
+		</div>
+		<div class="row" id="sb2row2">
+			<div class="col-sm-4 pb-4" id="sb2row2c1"> 
+				<form>
+					<input type="text" class="form-control sb2input" placeholder="NOMBRE COMPLETO">
+				</form>
+			</div>
+			<div  class="col-sm-4 pb-4" id="sb2row2c2">
+				<form>
+					<input type="email" class="form-control sb2input" placeholder="EMAIL">
+				</form>
+			</div>
+			<div class="col-sm-4 pb-4" id="sb2row2c3">
+				<form>
+					<input type="text" class="form-control sb2input" placeholder="ASUNTO">
+				</form>
+			</div>
+
+			<div class="col-sm-12" id="sb2row2c4">
+				<form>
+					<textarea rows="10" class="sb2textarea form-control" placeholder="MENSAJE"></textarea>
+				</form>
+			</div>
+
+			<div class="col pt-2" id="sb2row2c5">
+				<form>
+					<button class="sb2boton">ENVIAR</button>
+				</form>
+			</div>
+		</div>
+	
+</section>
+
+
+<!-- footer -->
+	<footer id="footer">
+		<div id="footer-logo">
+			<a href="#inicio"><img src="img/logoheader.png" alt="logo Mexiko Restaurante Bar"></a>
+		</div>
+
+		<div id="listcontent">
+			<div class="footer-lista">
+				<div id="titulo-footer"><h4>RESTAURANTES</h4></div>
+					<ul>
+						<li>
+							<h6 class="whitecolor">NUEVA CÓRDOBA 1</h6>
+							<p>av. Ambrosio Olmos, Blvr. Chacabuco esq, 5000 Córdoba</p>
+						</li>
+						<li>
+							<h6 class="redcolor">NUEVA CÓRDOBA 2</h6>
+							<p>av. pueyrredon 45 Cordoba, 5000 Cordoba</p>
+						</li>
+						<li>
+							<h6 class="greencolor">BARRIO GENERAL CARLOS PAZ</h6>
+							<p>av. 24 de septiembre 1014, 5000 Córdoba</p>
+						</li>
+					</ul>
+			</div>
+
+			<div class="footer-lista">
+					<ul>
+						<li>
+							<h6 class="whitecolor">COSTANERA CARLOS PAZ 1</h6>
+							<p>av. Illia 899 Villa Domínguez, 5152 Villa Carlos Paz</p>
+						</li>
+						<li>
+							<h6 class="redcolor">COSTANERA CARLOS PAZ 2</h6>
+							<p>Av. Arturo Umberto Illia 1575, 5152 Villa Carlos Paz</p>
+						</li>
+						<li>
+							<h6 class="greencolor">CENTRO PAZ</h6>
+							<p>Gral. Paz, 5152 Villa Carlos Paz</p>
+						</li>
+					</ul>
+			</div>
+		</div>
+
+		<div id="redes">
+				<div id=titulo>
+					<h4>SÍGUENOS EN INSTAGRAM!</h4>
+				</div>
+				<nav id="botonfooter">
+					<ul class="list-unstyled">
+						<li>
+							<a href="https://instagram.com/villarruel.tomi?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/instalogo.png" class="img-fluid img-circle"></a>
+						</li>
+					</ul>
+				</nav>
+		</div>
+	
+	</footer>
+
+	<!-- JS Propio -->
+	<script type="text/javascript" src="js/unidad8.js"></script>
+	<!-- JS Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
