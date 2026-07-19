@@ -575,7 +575,7 @@ header {
    Sección 3 - Descarga App
    ========================================================================== */
 #section3 {
-    background: linear-gradient(135deg, var(--color-primary) 0%, #850b17 100%);
+    background: #CC1124;
     border-radius: 24px;
     padding: 60px;
     margin-top: 60px;
@@ -590,20 +590,16 @@ header {
 #section3-foto {
     width: 45%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-self: flex-end;
+    margin-bottom: -60px;
+    margin-left: -60px;
 }
 
 #section3-foto img {
     width: 80%;
     max-width: 300px;
     display: block;
-    animation: floatPhone 4s ease-in-out infinite;
-    filter: drop-shadow(0 15px 25px rgba(0,0,0,0.4));
-}
-
-@keyframes floatPhone {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-15px); }
 }
 
 #section3-texto {
@@ -974,6 +970,12 @@ footer {
     
     #section3-foto, #section3-texto {
         width: 100%;
+    }
+    
+    #section3-foto {
+        align-self: flex-start;
+        margin-bottom: -40px;
+        margin-left: -30px;
     }
     
     #section3-texto h2 {
